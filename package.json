@@ -1,0 +1,16 @@
+{
+  "name": "figma-mcp-server",
+  "version": "1.0.0",
+  "description": "Simple Figma MCP server",
+  "main": "index.js",
+  "repository": "https://github.com/dv-ecoloop/figma-mcp-server.git",
+  "author": "<daniel.venna@ecoloop.us>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node ./node_modules/.bin/figma-developer-mcp || npx figma-developer-mcp"
+  },
+  "dependencies": {
+    "figma-developer-mcp": "latest"
+  }
+}
